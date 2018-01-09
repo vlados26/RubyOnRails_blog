@@ -1,0 +1,24 @@
+<% content_for(:title, "Posts") %>
+
+<h1>Listing posts</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+  </tr>
+  <tr>
+  <% @posts.each do |post| %>
+    <td><%= post.title %></td>
+    <td><%= post.text %></td>
+    <td>
+      <%= link_to "Show", :action => :show, :id => post.id %>
+      <%= link_to "Edit", :action => :edit, :id => post.id %>
+      <%= link_to "Delete Post", post_path(post.id),
+     data: { method: :delete, confirm: "Are you sure?" } %>
+   </td>
+  </tr>
+  <% end %>
+</table>
+
+<%= link_to "Create new post", :action => :new %>

@@ -1,0 +1,74 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body, html {
+  margin: 20px;
+  padding: 0;
+  font-family: Verdana, Arial;
+}
+h2 {
+  border-top: 1px solid #aaa;
+}
+a {
+  text-decoration: none;
+}
+textarea {
+  resize: none;
+  height: 200px;
+  width: 400px;
+}
+input[type=submit] {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+table th,
+table tr td:nth-child(1),
+table tr td:nth-child(2) {
+  border: 1px solid black;
+}
+table tr td:nth-child(3) a {
+  display: flex;
+  justify-content: center;
+  margin: 2px;
+}
+table tr td:nth-child(1) {
+  width: 100px;
+  padding: 5px;
+  text-align: center;
+}
+table tr td:nth-child(2) {
+  display: block;
+  height: 200px;
+  overflow: auto;
+  width: 250px;
+  padding: 5px;
+  text-align: center;
+}
+a {
+  display: inline-block;
+  background-color: #f44336;
+  color: #FFFFFF;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  opacity: 0.9;
+  white-space: nowrap;
+}
+a:hover {
+  color: white;
+  background-color: red;
+  opacity: 1;
+}
