@@ -1,8 +1,11 @@
 # README
 
 To test checkout the following link:
+```javascript
 https://cryptic-ocean-46210.herokuapp.com/
-
+login: 'dhh'
+password: 'secret'
+```
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
