@@ -1,6 +1,6 @@
 # README
 
-To tesh checkout following link:
+To test checkout the following link:
 https://cryptic-ocean-46210.herokuapp.com/
 
 This README would normally document whatever steps are necessary to get the
